@@ -1,0 +1,114 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.mainimg {
+  width: 170px;
+  border-radius: 50px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: 10px 0 80px rgb(235, 234, 234);
+  margin-left: 50px;
+}
+
+.main {
+  height: 1000px;
+  width: 1100px;
+  background-color: rgba(38, 38, 38, 0.548);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 520px;
+  left: 50%;
+  bottom: 520px;
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(1, 1, 1, 0.495);
+  box-shadow: 0 0 80px rgba(142, 142, 142, 0.597);
+  padding: 50px 35px;
+}
+
+body {
+  background-color: rgba(7, 7, 7, 0.737);
+  background-image: url(3790078.png);
+}
+
+.main * {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #121111;
+  letter-spacing: 1px;
+  outline: none;
+  /* border: none; */
+}
+
+.main_raw {
+  height: 260px;
+}
+
+.my_name {
+  color: white;
+  margin-right: 200px;
+  font-family: "Cascadia code";
+  font-size: 50px;
+}
+
+.dev_name {
+  color: rgba(255, 255, 255, 0.788);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 200px;
+}
+
+.about_text {
+  color: white;
+  margin-left: 50px;
+}
+
+.para_text {
+  color: rgb(255, 255, 255);
+  width: 90%;
+  margin-left: 50px;
+  font-size: large;
+}
+
+.r_1_c_1 {
+  color: rgb(255, 255, 255);
+  width: 90%;
+  margin-left: 50px;
+  font-size: large;
+}
+
+.r_1_c_2 {
+  color: rgb(255, 255, 255);
+  width: 78%;
+  margin-left: 500px;
+  font-size: large;
+}
+
+hr {
+  color: aliceblue;
+}
+
+#skills {
+  width: 90%;
+  margin-left: 50px;
+  height: 20px;
+}
+
+.pro_bar {
+  color: rgb(255, 255, 255);
+  width: 90%;
+  margin-left: 50px;
+  font-size: large;
+}
+
+/* th,
+td,
+tr {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  padding: 15px;
+  border: 2px, solid rgb(3, 3, 3);
+} */
