@@ -8,8 +8,8 @@ table {
 .mainimg {
   width: 170px;
   border-radius: 25px;
-  border: 5px solid rgba(205, 205, 205, 0.627);
-  box-shadow: 10px 0 50px rgba(235, 234, 234, 0.625);
+  border: 5px solid rgba(205, 205, 205, 0.726);
+  box-shadow: 0px 0 50px rgba(143, 143, 143, 0.625);
   margin-left: 50px;
 }
 
@@ -33,6 +33,7 @@ body {
   background-color: rgba(17, 16, 16, 0.737);
   background-image: url(3790078.png);
   height: 1500px;
+  width: auto;
 }
 
 .main * {
@@ -90,17 +91,98 @@ hr {
   color: aliceblue;
 }
 
-#skills {
-  width: 90%;
-  margin-left: 50px;
-  height: 20px;
-}
 
 .pro_bar {
   color: rgb(255, 255, 255);
   width: 90%;
   margin-left: 50px;
   font-size: large;
+}
+
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 1px 1px;
+  display: flex;
+  height: 18px;
+  width: 90%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.progress-value_c {
+  animation: load 4s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: rgb(221, 8, 15);
+  height: 15px;
+  width: 0;
+}
+
+.progress-value_py {
+  animation: load_py 4s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: rgb(225, 208, 22);
+  height: 15px;
+  width: 0;
+}
+
+.progress-value_ja {
+  animation: load_ja 4s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: rgb(11, 150, 249);
+  height: 15px;
+  width: 0;
+}
+
+.progress-value_sql {
+  animation: load_sql 4s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: rgb(236, 131, 12);
+  height: 15px;
+  width: 0;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes load_py {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes load_ja {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 43%;
+  }
+}
+
+@keyframes load_sql {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
 }
 
 /* th,
