@@ -11,10 +11,14 @@ table {
   border: 5px solid rgba(205, 205, 205, 0.726);
   box-shadow: 0px 0 50px rgba(143, 143, 143, 0.625);
   margin-left: 50px;
+  animation-name            : imga;
+  animation-duration        : 4s;
+  
+  
 }
 
 .main {
-  height: 1100px;
+  height: 1200px;
   width: 1100px;
   background-color: rgba(38, 38, 38, 0.548);
   position: absolute;
@@ -23,15 +27,17 @@ table {
   left: 50%;
   bottom: 520px;
   border-radius: 25px;
-  backdrop-filter: blur(5px);
-  border: 2px solid rgba(212, 212, 212, 0.495);
-  box-shadow: 0 0 100px rgba(181, 180, 180, 0.597);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(186, 186, 186, 0.495);
+  box-shadow: 0 0 50px rgba(181, 180, 180, 0.597);
   padding: 50px 35px;
 }
 
+
+
 body {
   background-color: rgba(17, 16, 16, 0.737);
-  background-image: url(3790078.png);
+  background: url(logo7.png)  center center;
   height: 1500px;
   width: auto;
 }
@@ -55,6 +61,20 @@ body {
   font-size: 50px;
 }
 
+@keyframes imga {
+  from {
+    transform : scale(0.1);
+    opacity   : 0.25;
+  }
+  to {
+      transform : scale(1);
+      opacity   : 1;
+  }
+}
+
+
+
+
 .dev_name {
   color: rgba(255, 255, 255, 0.788);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -62,7 +82,7 @@ body {
 }
 
 .about_text {
-  color: white;
+  color: rgb(255, 251, 251);
   margin-left: 50px;
 }
 
@@ -114,7 +134,8 @@ hr {
 }
 
 .progress-value_c {
-  animation: load 4s normal forwards;
+  animation: load 7s normal forwards;
+  
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: rgb(221, 8, 15);
@@ -123,7 +144,7 @@ hr {
 }
 
 .progress-value_py {
-  animation: load_py 4s normal forwards;
+  animation: load_py 5s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: rgb(225, 208, 22);
@@ -141,10 +162,10 @@ hr {
 }
 
 .progress-value_sql {
-  animation: load_sql 4s normal forwards;
+  animation: load_sql 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
-  background: rgb(236, 131, 12);
+  background: rgb(12, 236, 23);
   height: 15px;
   width: 0;
 }
@@ -184,6 +205,9 @@ hr {
     width: 30%;
   }
 }
+
+
+
 
 /* th,
 td,
